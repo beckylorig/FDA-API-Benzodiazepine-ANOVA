@@ -7,7 +7,7 @@ The project used the FDA Adverse Event Reporting System (FAERS) database contain
 
 
 ## The data were used to answer the following question:
-1. Are there more adverse event reports for benzodiazepine medications during the winter months?
+Are there more adverse event reports for benzodiazepine medications during the winter months?
 
 
 ## Benzodiazepine Analysis
@@ -24,6 +24,6 @@ Multiple API calls were used to create a dataset for analysis.  The API query wa
 7. boxplot of event counts by patient age
 8. 1-way ANOVA and Tukey test for significant months within the two highest age groups 50-59 and 60-69.
 ### Findings
-The hypothesis was that there may be a greater number of adverse events for benzodiazapines in the winter months because more of the medication is prescribed during that time, perhaps related to seasonal depression in the winter.  Indeed, we found that there is an statistically significant increase in benzodiazapine adverse event reports during the winter months from 2015 - 2021 (specifically, December, January and February).  And the greatest number of reports came from patients between the ages of 50-69.  The patients in this age group also showed statistically significant higher adverse report counts during the same months.  Although the API doesn't provide data on count of prescriptions written, it is plausible to think that there is a seasonality effect in benzodiazepine issuance.
+The hypothesis was that there may be a greater number of adverse events for benzodiazapines in the winter months because more of the medication is prescribed during that time, perhaps related to seasonal depression in the winter.  Indeed, I found that there is an statistically significant increase in benzodiazapine adverse event reports during the winter months from 2015 - 2021 (specifically, December, January and February).  And the greatest number of reports came from patients between the ages of 50-69.  The patients in this age group also showed statistically significant higher adverse report counts during the same months.  Although the API doesn't provide data on count of prescriptions written, it is plausible to think that there is a seasonality effect in benzodiazepine issuance.
 
 
